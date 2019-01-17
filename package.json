@@ -1,0 +1,10 @@
+{
+  "name": "jupyterlab-shortcuts",
+  "version": "1.0.0",
+  "description": "Parse jupyterlab shortcut config to html",
+  "main": "convert.js",
+  "license": "MIT",
+  "dependencies": {
+    "json5": "^2.1.0"
+  }
+}

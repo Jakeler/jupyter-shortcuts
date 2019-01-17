@@ -1,0 +1,1113 @@
+{
+    // Keyboard Shortcuts
+    // @jupyterlab/shortcuts-extension:plugin
+    // Keyboard shortcut settings for JupyterLab.
+    // ******************************************
+
+    // [missing schema title]
+    // [missing schema description]
+    "application:activate-next-tab": {
+      "command": "application:activate-next-tab",
+      "keys": [
+        "Ctrl Shift ]"
+      ],
+      "selector": "body",
+      "title": "Activate Next Tab",
+      "category": "Main Area"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "application:activate-previous-tab": {
+      "command": "application:activate-previous-tab",
+      "keys": [
+        "Ctrl Shift ["
+      ],
+      "selector": "body",
+      "title": "Activate Previous Tab",
+      "category": "Main Area"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "application:toggle-left-area": {
+      "command": "application:toggle-left-area",
+      "keys": [
+        "Accel B"
+      ],
+      "selector": "body",
+      "title": "Toggle Left Area",
+      "category": "Main Area"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "application:toggle-mode": {
+      "command": "application:toggle-mode",
+      "keys": [
+        "Accel Shift D"
+      ],
+      "selector": "body",
+      "title": "Toggle Single-Document Mode",
+      "category": "Main Area"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "application:toggle-presentation-mode": {
+      "command": "application:toggle-presentation-mode",
+      "keys": [
+        ""
+      ],
+      "selector": "body",
+      "title": "Toggle Presentation Mode",
+      "category": "Main Area"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "application:toggle-right-area": {
+      "command": "application:toggle-right-area",
+      "keys": [
+        ""
+      ],
+      "selector": "body",
+      "title": "Toggle Right Area",
+      "category": "Main Area"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "apputils:activate-command-palette": {
+      "command": "apputils:activate-command-palette",
+      "keys": [
+        "Accel Shift C"
+      ],
+      "selector": "body",
+      "title": "Activate Command Palette",
+      "category": "Main Area"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "completer:invoke-console": {
+      "command": "completer:invoke-console",
+      "keys": [
+        "Tab"
+      ],
+      "selector": ".jp-CodeConsole-promptCell .jp-mod-completer-enabled",
+      "title": "Invoke Console Completion",
+      "category": "Completer"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "completer:invoke-file": {
+      "command": "completer:invoke-file",
+      "keys": [
+        "Tab"
+      ],
+      "selector": ".jp-FileEditor .jp-mod-completer-enabled",
+      "title": "Invoke File Completion",
+      "category": "Completer"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "completer:invoke-notebook": {
+      "command": "completer:invoke-notebook",
+      "keys": [
+        "Tab"
+      ],
+      "selector": ".jp-Notebook.jp-mod-editMode .jp-mod-completer-enabled",
+      "title": "Invoke Notebook Completion",
+      "category": "Completer"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "console:linebreak": {
+      "command": "console:linebreak",
+      "keys": [
+        "Enter"
+      ],
+      "selector": ".jp-CodeConsole-promptCell",
+      "title": "Insert Line Break",
+      "category": "Console"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "console:run-forced": {
+      "command": "console:run-forced",
+      "keys": [
+        "Shift Enter"
+      ],
+      "selector": ".jp-CodeConsole-promptCell",
+      "title": "Run Cell (forced)",
+      "category": "Console"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "docmanager:close": {
+      "command": "docmanager:close",
+      "keys": [
+        "Ctrl Q"
+      ],
+      "selector": ".jp-Activity",
+      "title": "Close Activity",
+      "category": "File Operations"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "docmanager:save": {
+      "command": "docmanager:save",
+      "keys": [
+        "Accel S"
+      ],
+      "selector": "body",
+      "title": "Save",
+      "category": "File Operations"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "docmanager:save-as": {
+      "command": "docmanager:save-as",
+      "keys": [
+        "Accel Shift S"
+      ],
+      "selector": "body",
+      "title": "Save As",
+      "category": "File Operations"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "editmenu:clear-all": {
+      "command": "editmenu:clear-all",
+      "keys": [
+        ""
+      ],
+      "selector": "[data-jp-undoer]",
+      "title": "Clear All",
+      "category": "Editing"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "editmenu:clear-current": {
+      "command": "editmenu:clear-current",
+      "keys": [
+        ""
+      ],
+      "selector": "[data-jp-undoer]",
+      "title": "Clear",
+      "category": "Editing"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "editmenu:find": {
+      "command": "editmenu:find",
+      "keys": [
+        ""
+      ],
+      "selector": "[data-jp-undoer]",
+      "title": "Find",
+      "category": "Editing"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "editmenu:find-and-replace": {
+      "command": "editmenu:find-and-replace",
+      "keys": [
+        ""
+      ],
+      "selector": "[data-jp-undoer]",
+      "title": "Find and Replace",
+      "category": "Editing"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "editmenu:redo": {
+      "command": "editmenu:redo",
+      "keys": [
+        "Ctrl Shift Z"
+      ],
+      "selector": "[data-jp-undoer]",
+      "title": "Redo",
+      "category": "Editing"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "editmenu:undo": {
+      "command": "editmenu:undo",
+      "keys": [
+        "Ctrl Z"
+      ],
+      "selector": "[data-jp-undoer]",
+      "title": "Undo",
+      "category": "Editing"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "filebrowser:create-main-launcher": {
+      "command": "filebrowser:create-main-launcher",
+      "keys": [
+        "Accel Shift L"
+      ],
+      "selector": "body",
+      "title": "New Launcher",
+      "category": "File Operations"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "filebrowser:toggle-main": {
+      "command": "filebrowser:toggle-main",
+      "keys": [
+        "Accel Shift F"
+      ],
+      "selector": "body",
+      "title": "Toggle Filebrowser",
+      "category": "File Operations"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "help:toggle": {
+      "command": "help:toggle",
+      "keys": [
+        "Ctrl Shift H"
+      ],
+      "selector": "body",
+      "title": "Toggle Help",
+      "category": "Help"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "imageviewer:flip-horizontal": {
+      "command": "imageviewer:flip-horizontal",
+      "keys": [
+        "H"
+      ],
+      "selector": ".jp-ImageViewer",
+      "title": "Flip Image Horizontally",
+      "category": "Image Viewer"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "imageviewer:flip-vertical": {
+      "command": "imageviewer:flip-vertical",
+      "keys": [
+        "V"
+      ],
+      "selector": ".jp-ImageViewer",
+      "title": "Flip Image Vertically",
+      "category": "Image Viewer"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "imageviewer:invert-colors": {
+      "command": "imageviewer:invert-colors",
+      "keys": [
+        "I"
+      ],
+      "selector": ".jp-ImageViewer",
+      "title": "Invert Colors",
+      "category": "Image Viewer"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "imageviewer:reset-image": {
+      "command": "imageviewer:reset-image",
+      "keys": [
+        "0"
+      ],
+      "selector": ".jp-ImageViewer",
+      "title": "Reset Image",
+      "category": "Image Viewer"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "imageviewer:rotate-clockwise": {
+      "command": "imageviewer:rotate-clockwise",
+      "keys": [
+        "]"
+      ],
+      "selector": ".jp-ImageViewer",
+      "title": "Rotate Clockwise",
+      "category": "Image Viewer"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "imageviewer:rotate-counterclockwise": {
+      "command": "imageviewer:rotate-counterclockwise",
+      "keys": [
+        "["
+      ],
+      "selector": ".jp-ImageViewer",
+      "title": "Rotate Counterclockwise",
+      "category": "Image Viewer"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "imageviewer:zoom-in": {
+      "command": "imageviewer:zoom-in",
+      "keys": [
+        "="
+      ],
+      "selector": ".jp-ImageViewer",
+      "title": "Zoom In",
+      "category": "Image Viewer"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "imageviewer:zoom-out": {
+      "command": "imageviewer:zoom-out",
+      "keys": [
+        "-"
+      ],
+      "selector": ".jp-ImageViewer",
+      "title": "Zoom Out",
+      "category": "Image Viewer"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "inspector:open": {
+      "command": "inspector:open",
+      "keys": [
+        "Accel I"
+      ],
+      "selector": "body",
+      "title": "Open Inspector",
+      "category": "Inspector"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "kernelmenu:interrupt": {
+      "command": "kernelmenu:interrupt",
+      "keys": [
+        "I",
+        "I"
+      ],
+      "selector": "[data-jp-kernel-user]:focus",
+      "title": "Interrupt Kernel",
+      "category": "Kernel Operations"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "kernelmenu:restart": {
+      "command": "kernelmenu:restart",
+      "keys": [
+        "0",
+        "0"
+      ],
+      "selector": "[data-jp-kernel-user]:focus",
+      "title": "Restart Kernel",
+      "category": "Kernel Operations"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "kernelmenu:restart-and-clear": {
+      "command": "kernelmenu:restart-and-clear",
+      "keys": [
+        ""
+      ],
+      "selector": "[data-jp-kernel-user]:focus",
+      "title": "Restart Kernel and Clear",
+      "category": "Kernel Operations"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "kernelmenu:shutdown": {
+      "command": "kernelmenu:shutdown",
+      "keys": [
+        ""
+      ],
+      "selector": "[data-jp-kernel-user]:focus",
+      "title": "Shutdown Kernel",
+      "category": "Kernel Operations"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "launcher:create": {
+      "command": "launcher:create",
+      "keys": [
+        ""
+      ],
+      "selector": "body",
+      "title": "New Launcher",
+      "category": "Main Area"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "notebook:change-cell-to-code": {
+      "command": "notebook:change-cell-to-code",
+      "keys": [
+        "Y"
+      ],
+      "selector": ".jp-Notebook:focus",
+      "title": "Change to Code Cell Type",
+      "category": "Notebook Cell Operations"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "notebook:change-cell-to-markdown": {
+      "command": "notebook:change-cell-to-markdown",
+      "keys": [
+        "M"
+      ],
+      "selector": ".jp-Notebook:focus",
+      "title": "Change to Markdown Cell Type",
+      "category": "Notebook Cell Operations"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "notebook:change-cell-to-raw": {
+      "command": "notebook:change-cell-to-raw",
+      "keys": [
+        "R"
+      ],
+      "selector": ".jp-Notebook:focus",
+      "title": "Change to Raw Cell Type",
+      "category": "Notebook Cell Operations"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "notebook:change-to-cell-heading-1": {
+      "command": "notebook:change-cell-to-heading-1",
+      "keys": [
+        "1"
+      ],
+      "selector": ".jp-Notebook:focus",
+      "title": "Change to Heading 1",
+      "category": "Notebook Cell Operations"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "notebook:change-to-cell-heading-2": {
+      "command": "notebook:change-cell-to-heading-2",
+      "keys": [
+        "2"
+      ],
+      "selector": ".jp-Notebook:focus",
+      "title": "Change to Heading 2",
+      "category": "Notebook Cell Operations"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "notebook:change-to-cell-heading-3": {
+      "command": "notebook:change-cell-to-heading-3",
+      "keys": [
+        "3"
+      ],
+      "selector": ".jp-Notebook:focus",
+      "title": "Change to Heading 3",
+      "category": "Notebook Cell Operations"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "notebook:change-to-cell-heading-4": {
+      "command": "notebook:change-cell-to-heading-4",
+      "keys": [
+        "4"
+      ],
+      "selector": ".jp-Notebook:focus",
+      "title": "Change to Heading 4",
+      "category": "Notebook Cell Operations"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "notebook:change-to-cell-heading-5": {
+      "command": "notebook:change-cell-to-heading-5",
+      "keys": [
+        "5"
+      ],
+      "selector": ".jp-Notebook:focus",
+      "title": "Change to Heading 5",
+      "category": "Notebook Cell Operations"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "notebook:change-to-cell-heading-6": {
+      "command": "notebook:change-cell-to-heading-6",
+      "keys": [
+        "6"
+      ],
+      "selector": ".jp-Notebook:focus",
+      "title": "Change to Heading 6",
+      "category": "Notebook Cell Operations"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "notebook:copy-cell": {
+      "command": "notebook:copy-cell",
+      "keys": [
+        "C"
+      ],
+      "selector": ".jp-Notebook:focus",
+      "title": "Copy Cell(s)",
+      "category": "Notebook Cell Operations"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "notebook:cut-cell": {
+      "command": "notebook:cut-cell",
+      "keys": [
+        "X"
+      ],
+      "selector": ".jp-Notebook:focus",
+      "title": "Cut Cell(s)",
+      "category": "Notebook Cell Operations"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "notebook:delete-cell": {
+      "command": "notebook:delete-cell",
+      "keys": [
+        "D",
+        "D"
+      ],
+      "selector": ".jp-Notebook:focus",
+      "title": "Delete Cell(s)",
+      "category": "Notebook Cell Operations"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "notebook:enter-command-mode-1": {
+      "command": "notebook:enter-command-mode",
+      "keys": [
+        "Escape"
+      ],
+      "selector": ".jp-Notebook.jp-mod-editMode",
+      "title": "Enter Command Mode",
+      "category": "Notebook Operations"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "notebook:enter-command-mode-2": {
+      "command": "notebook:enter-command-mode",
+      "keys": [
+        "Ctrl M"
+      ],
+      "selector": ".jp-Notebook.jp-mod-editMode",
+      "title": "Enter Command Mode",
+      "category": "Notebook Operations"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "notebook:enter-edit-mode": {
+      "command": "notebook:enter-edit-mode",
+      "keys": [
+        "Enter"
+      ],
+      "selector": ".jp-Notebook:focus",
+      "title": "Enter Edit Mode",
+      "category": "Notebook Operations"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "notebook:extend-marked-cells-above-1": {
+      "command": "notebook:extend-marked-cells-above",
+      "keys": [
+        "Shift ArrowUp"
+      ],
+      "selector": ".jp-Notebook:focus",
+      "title": "Extend Selection Above",
+      "category": "Notebook Cell Operations"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "notebook:extend-marked-cells-above-2": {
+      "command": "notebook:extend-marked-cells-above",
+      "keys": [
+        "Shift K"
+      ],
+      "selector": ".jp-Notebook:focus",
+      "title": "Extend Selection Above",
+      "category": "Notebook Cell Operations"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "notebook:extend-marked-cells-below-1": {
+      "command": "notebook:extend-marked-cells-below",
+      "keys": [
+        "Shift ArrowDown"
+      ],
+      "selector": ".jp-Notebook:focus",
+      "title": "Extend Selection Below",
+      "category": "Notebook Cell Operations"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "notebook:extend-marked-cells-below-2": {
+      "command": "notebook:extend-marked-cells-below",
+      "keys": [
+        "Shift J"
+      ],
+      "selector": ".jp-Notebook:focus",
+      "title": "Extend Selection Below",
+      "category": "Notebook Cell Operations"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "notebook:insert-cell-above": {
+      "command": "notebook:insert-cell-above",
+      "keys": [
+        "A"
+      ],
+      "selector": ".jp-Notebook:focus",
+      "title": "Insert Cell Above",
+      "category": "Notebook Cell Operations"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "notebook:insert-cell-below": {
+      "command": "notebook:insert-cell-below",
+      "keys": [
+        "B"
+      ],
+      "selector": ".jp-Notebook:focus",
+      "title": "Insert Cell Below",
+      "category": "Notebook Cell Operations"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "notebook:line-numbering": {
+      "command": "viewmenu:line-numbering",
+      "keys": [
+        ""
+      ],
+      "selector": ".jp-Notebook.jp-mod-commandMode",
+      "title": "Show Line Numbers",
+      "category": "Notebook Operations"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "notebook:match-brackets": {
+      "command": "viewmenu:match-brackets",
+      "keys": [
+        ""
+      ],
+      "selector": ".jp-Notebook.jp-mod-commandMode",
+      "title": "Match Brackets",
+      "category": "Notebook Operations"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "notebook:merge-cells": {
+      "command": "notebook:merge-cells",
+      "keys": [
+        "Shift M"
+      ],
+      "selector": ".jp-Notebook:focus",
+      "title": "Merge Selected Cells",
+      "category": "Notebook Cell Operations"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "notebook:move-cursor-down-1": {
+      "command": "notebook:move-cursor-down",
+      "keys": [
+        "ArrowDown"
+      ],
+      "selector": ".jp-Notebook:focus",
+      "title": "Move Cursor Down",
+      "category": "Notebook Cell Operations"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "notebook:move-cursor-down-2": {
+      "command": "notebook:move-cursor-down",
+      "keys": [
+        "J"
+      ],
+      "selector": ".jp-Notebook:focus",
+      "title": "Move Cursor Down",
+      "category": "Notebook Cell Operations"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "notebook:move-cursor-up-1": {
+      "command": "notebook:move-cursor-up",
+      "keys": [
+        "ArrowUp"
+      ],
+      "selector": ".jp-Notebook:focus",
+      "title": "Move Cursor Up",
+      "category": "Notebook Cell Operations"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "notebook:move-cursor-up-2": {
+      "command": "notebook:move-cursor-up",
+      "keys": [
+        "K"
+      ],
+      "selector": ".jp-Notebook:focus",
+      "title": "Move Cursor Up",
+      "category": "Notebook Cell Operations"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "notebook:paste-cell-below": {
+      "command": "notebook:paste-cell-below",
+      "keys": [
+        "V"
+      ],
+      "selector": ".jp-Notebook:focus",
+      "title": "Paste Cell(s) Below",
+      "category": "Notebook Cell Operations"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "notebook:redo-cell-action": {
+      "command": "notebook:redo-cell-action",
+      "keys": [
+        "Shift Z"
+      ],
+      "selector": ".jp-Notebook:focus",
+      "title": "Redo Cell Operation",
+      "category": "Notebook Cell Operations"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "notebook:run-cell-1": {
+      "command": "notebook:run-cell",
+      "keys": [
+        "Ctrl Enter"
+      ],
+      "selector": ".jp-Notebook:focus",
+      "title": "Run Cell(s)",
+      "category": "Notebook Cell Operations"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "notebook:run-cell-2": {
+      "command": "notebook:run-cell",
+      "keys": [
+        "Ctrl Enter"
+      ],
+      "selector": ".jp-Notebook.jp-mod-editMode",
+      "title": "Run Cell(s)",
+      "category": "Notebook Operations"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "notebook:run-cell-and-insert-below-1": {
+      "command": "notebook:run-cell-and-insert-below",
+      "keys": [
+        "Alt Enter"
+      ],
+      "selector": ".jp-Notebook:focus",
+      "title": "Run Cell(s) and Insert Below",
+      "category": "Notebook Cell Operations"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "notebook:run-cell-and-insert-below-2": {
+      "command": "notebook:run-cell-and-insert-below",
+      "keys": [
+        "Alt Enter"
+      ],
+      "selector": ".jp-Notebook.jp-mod-editMode",
+      "title": "Run Cell and Insert Below",
+      "category": "Notebook Operations"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "notebook:run-cell-and-select-next": {
+      "command": "notebook:run-cell-and-select-next",
+      "keys": [
+        "Shift Enter"
+      ],
+      "selector": ".jp-Notebook.jp-mod-editMode",
+      "title": "Run Cell and Select Next",
+      "category": "Notebook Operations"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "notebook:run-in-console": {
+      "command": "notebook:run-in-console",
+      "keys": [
+        ""
+      ],
+      "selector": ".jp-Notebook.jp-mod-editMode",
+      "title": "Run In Console",
+      "category": "Notebook Cell Operations"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "notebook:select-all": {
+      "command": "notebook:select-all",
+      "keys": [
+        "Accel A"
+      ],
+      "selector": ".jp-Notebook:focus",
+      "title": "Select All Cells",
+      "category": "Notebook Cell Operations"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "notebook:split-cell-at-cursor": {
+      "command": "notebook:split-cell-at-cursor",
+      "keys": [
+        "Ctrl Shift -"
+      ],
+      "selector": ".jp-Notebook.jp-mod-editMode",
+      "title": "Split Cell at Cursor",
+      "category": "Notebook Operations"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "notebook:toggle-all-cell-line-numbers": {
+      "command": "notebook:toggle-all-cell-line-numbers",
+      "keys": [
+        "Shift L"
+      ],
+      "selector": ".jp-Notebook:focus",
+      "title": "Toggle All Cell Line Numbers",
+      "category": "Notebook Cell Operations"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "notebook:toggle-cell-line-numbers": {
+      "command": "notebook:toggle-cell-line-numbers",
+      "keys": [
+        "L"
+      ],
+      "selector": ".jp-Notebook:focus",
+      "title": "Toggle Cell Line Numbers",
+      "category": "Notebook Cell Operations"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "notebook:undo-cell-action": {
+      "command": "notebook:undo-cell-action",
+      "keys": [
+        "Z"
+      ],
+      "selector": ".jp-Notebook:focus",
+      "title": "Undo Cell Operation",
+      "category": "Notebook Cell Operations"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "runmenu:restart-and-run-all": {
+      "command": "runmenu:restart-and-run-all",
+      "keys": [
+        ""
+      ],
+      "selector": "[data-jp-code-runner]",
+      "title": "Restart Kernel and Run All",
+      "category": "Run Menu"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "runmenu:run": {
+      "command": "runmenu:run",
+      "keys": [
+        "Shift Enter"
+      ],
+      "selector": "[data-jp-code-runner]",
+      "title": "Run",
+      "category": "Run Menu"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "runmenu:run-all": {
+      "command": "runmenu:run-all",
+      "keys": [
+        ""
+      ],
+      "selector": "[data-jp-code-runner]",
+      "title": "Run All",
+      "category": "Run Menu"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "settingeditor:debug": {
+      "command": "settingeditor:debug",
+      "keys": [
+        "Accel I"
+      ],
+      "selector": ".jp-SettingEditor",
+      "title": "Open Debugger",
+      "category": "Settings Editor"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "settingeditor:open": {
+      "command": "settingeditor:open",
+      "keys": [
+        "Accel ,"
+      ],
+      "selector": "body",
+      "title": "Open Settings Editor",
+      "category": "Settings Editor"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "settingeditor:save": {
+      "command": "settingeditor:save",
+      "keys": [
+        "Accel S"
+      ],
+      "selector": ".jp-SettingEditor",
+      "title": "Save Settings",
+      "category": "Settings Editor"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "shortcutui:open-ui": {
+      "command": "shortcutui:open-ui",
+      "keys": [
+        "Ctrl Shift /"
+      ],
+      "selector": "body",
+      "title": "Open Keyboard Shortcut Settings",
+      "category": "Main Area"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "tabmenu:activate-previously-used-tab": {
+      "command": "tabmenu:activate-previously-used-tab",
+      "keys": [
+        "Accel Shift '"
+      ],
+      "selector": "body",
+      "title": "Activate Previously Used Tab",
+      "category": "Main Area"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "tooltip:dismiss-console": {
+      "command": "tooltip:dismiss",
+      "keys": [
+        "Escape"
+      ],
+      "selector": "body.jp-mod-tooltip .jp-CodeConsole-promptCell",
+      "title": "Dismiss Completer",
+      "category": "Tooltips"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "tooltip:dismiss-notebook": {
+      "command": "tooltip:dismiss",
+      "keys": [
+        "Escape"
+      ],
+      "selector": "body.jp-mod-tooltip .jp-Notebook",
+      "title": "Dismiss Completer",
+      "category": "Tooltips"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "tooltip:launch-console": {
+      "command": "tooltip:launch-console",
+      "keys": [
+        "Shift Tab"
+      ],
+      "selector": ".jp-CodeConsole-promptCell .jp-InputArea-editor:not(.jp-mod-has-primary-selection):not(.jp-mod-in-leading-whitespace)",
+      "title": "Invoke Completer",
+      "category": "Tooltips"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "tooltip:launch-file": {
+      "command": "tooltip:launch-file",
+      "keys": [
+        "Shift Tab"
+      ],
+      "selector": ".jp-FileEditor",
+      "title": "Invoke Completer",
+      "category": "Tooltips"
+    },
+
+    // [missing schema title]
+    // [missing schema description]
+    "tooltip:launch-notebook": {
+      "command": "tooltip:launch-notebook",
+      "keys": [
+        "Shift Tab"
+      ],
+      "selector": ".jp-Notebook.jp-mod-editMode .jp-InputArea-editor:not(.jp-mod-has-primary-selection):not(.jp-mod-in-leading-whitespace)",
+      "title": "Invoke Completer",
+      "category": "Tooltips"
+    }
+}
