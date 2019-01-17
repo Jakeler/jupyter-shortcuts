@@ -5,6 +5,7 @@
   "main": "convert.js",
   "license": "MIT",
   "dependencies": {
+    "express": "^4.16.4",
     "json5": "^2.1.0"
   }
 }
