@@ -1,5 +1,6 @@
 const fs = require("fs");
 const JSON5 = require('json5')
+
 const express = require('express')
 const mustacheExpress = require('mustache-express');
 const app = express()
@@ -24,14 +25,13 @@ for (const key in shortcuts) {
     const item = shortcuts[key]
     viewData[item.category].push({
         action: item.title,
-        keys: item.keys
+        keys: item.keys.map(item => item.split(' '))
     })
 }
-// convert back to array of objects
+// convert back to array of catergory objects
 viewData = Object.keys(viewData).map(key => ({title: key, options: viewData[key]}))
 
-console.log(viewData)
-
+//console.log(viewData)
 
 
 // Log all requests
@@ -40,6 +40,6 @@ app.use((req, res, next) => {
     next()
 })
 
-app.get('/', (req, res) => res.render('index', {name: ['Peter', 'Martin']}))
+app.get('/', (req, res) => res.render('index', {shortcuts: viewData}))
 
 app.listen(port, () => console.log(`App started at http://0.0.0.0:${port}`))

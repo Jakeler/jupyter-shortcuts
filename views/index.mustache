@@ -3,9 +3,18 @@
         <title>Jupyter Lab Keyboard Shortcuts</title>
     </head>
     <body>
-        {{#name}}
-        Hello {{.}}!
-        <p>
-        {{/name}}
+        {{#shortcuts}}
+            <h3>{{title}}</h3>
+            {{#options}}
+                <h5>{{action}}</h5>
+                {{#keys}}
+                    <p>
+                    {{#.}}
+                        | {{.}}
+                    {{/.}}
+                    </p>
+                {{/keys}}
+            {{/options}}
+        {{/shortcuts}}
     </body>
 </html>
