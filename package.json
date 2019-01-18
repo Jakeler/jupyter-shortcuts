@@ -6,6 +6,8 @@
   "license": "MIT",
   "dependencies": {
     "express": "^4.16.4",
-    "json5": "^2.1.0"
+    "json5": "^2.1.0",
+    "mustache": "^3.0.1",
+    "mustache-express": "^1.2.8"
   }
 }
