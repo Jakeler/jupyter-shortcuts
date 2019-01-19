@@ -8,14 +8,19 @@
         {{#shortcuts}}
             <h1 class="section-title">{{title}}</h1>
             {{#options}}
-                <h5 class="shortcut-title">{{action}}</h5>
-                {{#keys}}
-                    <p>
-                    {{#.}}
-                        <span class="key">{{.}}</span>
-                    {{/.}}
-                    </p>
-                {{/keys}}
+                <div class="shortcut">
+                    <div class="meta">
+                        <span class="title">{{action}}</span>
+                        <span class="id">bla:cat:x</span>
+                    </div>
+                    <div class="keys-container">
+                        {{#keys}}
+                            {{#.}}
+                                <span class="key">{{.}}</span>
+                            {{/.}}
+                        {{/keys}}
+                    </div>
+                </div>
             {{/options}}
         {{/shortcuts}}
     </body>

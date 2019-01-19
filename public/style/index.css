@@ -4,10 +4,37 @@
     margin-top: 1em;
 }
 
+
+.shortcut {
+    display: flex;
+    justify-content: space-between;
+    align-content: baseline;
+    padding: 20px;
+    border-bottom: 1px solid lightgray;
+}
+￼
+￼
+
+.shortcut .meta {
+    padding: 5px;
+}
+.shortcut .meta .title {
+    display: block;
+}
+.shortcut .meta .id {
+    color: gray;
+}
+
+
+.keys-container {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
 .key {
     border: 1px solid gray;
     border-radius: 2px;
-    padding: 5px;
+    padding: 5px 10px 5px 10px;
     box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.3);   
 }
 
