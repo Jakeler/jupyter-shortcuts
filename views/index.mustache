@@ -1,16 +1,18 @@
 <html>
     <head>
         <title>Jupyter Lab Keyboard Shortcuts</title>
+        <link>
+    <link rel="stylesheet" href="style/index.css">
     </head>
     <body>
         {{#shortcuts}}
-            <h3>{{title}}</h3>
+            <h1 class="section-title">{{title}}</h1>
             {{#options}}
-                <h5>{{action}}</h5>
+                <h5 class="shortcut-title">{{action}}</h5>
                 {{#keys}}
                     <p>
                     {{#.}}
-                        | {{.}}
+                        <span class="key">{{.}}</span>
                     {{/.}}
                     </p>
                 {{/keys}}

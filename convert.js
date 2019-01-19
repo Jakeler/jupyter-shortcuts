@@ -33,6 +33,8 @@ viewData = Object.keys(viewData).map(key => ({title: key, options: viewData[key]
 
 //console.log(viewData)
 
+// Serve static stylesheet
+app.use(express.static('public'));
 
 // Log all requests
 app.use((req, res, next) => {

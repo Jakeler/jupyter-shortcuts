@@ -1,0 +1,10 @@
+.section-title {
+    border-bottom: 1px solid lightgray;
+    font-weight: 100;
+}
+
+.key {
+    border: 1px solid gray;
+    border-radius: 2px;
+    padding: 5px;
+}
