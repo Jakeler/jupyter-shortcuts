@@ -22,6 +22,8 @@
     display: block;
 }
 .shortcut .meta .id {
+    display: block;
+    padding-top: .5em;
     color: gray;
 }
 

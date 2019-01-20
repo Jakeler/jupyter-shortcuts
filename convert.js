@@ -24,14 +24,15 @@ let viewData = cat.reduce((prev, val) => {
 for (const key in shortcuts) {
     const item = shortcuts[key]
     viewData[item.category].push({
+        id: item.command,
         action: item.title,
-        keys: item.keys.map(item => item.split(' '))
+        keys: item.keys.map(item => item != ''? item.split(' ') : [])
     })
 }
 // convert back to array of catergory objects
 viewData = Object.keys(viewData).map(key => ({title: key, options: viewData[key]}))
 
-//console.log(viewData)
+// console.log(JSON.stringify(viewData))
 
 // Serve static stylesheet
 app.use(express.static('public'));
