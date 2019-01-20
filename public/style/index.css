@@ -1,18 +1,37 @@
-.section-title {
-    border-bottom: 1px solid gray;
-    font-weight: 100;
-    margin-top: 1em;
+body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: lightgray;
+    height: 2800px;
 }
 
+section {
+    margin: 10px;
+    padding: 10px;
+    width: 550px;
+    background-color: white;
+    border: 1px solid gray;
+}
+
+
+.section-title {
+    margin: 5px;
+    border-bottom: 1px solid gray;
+    font-weight: 100;
+}
 
 .shortcut {
     display: flex;
     justify-content: space-between;
     align-content: baseline;
-    padding: 20px;
-    border-bottom: 1px solid lightgray;
+    padding: 10px;
 }
-￼
+
+.shortcut:not(:last-of-type) {
+    border-bottom: 1px solid lightgray;
+}￼
+￼￼
 ￼
 
 .shortcut .meta {
@@ -46,4 +65,4 @@
 
 .keys-container .key-group:not(:last-of-type)::after {
     content: "  -  "    
-  }
+}

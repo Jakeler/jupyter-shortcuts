@@ -15,6 +15,7 @@ const shortcuts = JSON5.parse(json)
 // Build object with categories
 let cat = Object.keys(shortcuts).map(val => shortcuts[val].category)
 cat = [... new Set(cat)]
+
 let viewData = cat.reduce((prev, val) => {
     prev[val] = []
     return prev
@@ -29,10 +30,27 @@ for (const key in shortcuts) {
         keys: item.keys.map(item => item != ''? item.split(' ') : [])
     })
 }
-// convert back to array of catergory objects
-viewData = Object.keys(viewData).map(key => ({title: key, options: viewData[key]}))
 
-// console.log(JSON.stringify(viewData))
+const keysOrdered = [   
+    'Main Area',
+    'File Operations',
+    'Image Viewer',
+    'Settings Editor',
+    'Tooltips',
+
+    'Notebook Operations',
+    'Run Menu',
+    'Kernel Operations',
+    'Editing',
+    'Console',
+    'Completer',
+    'Inspector',
+    
+    'Notebook Cell Operations',
+    'Help',
+]
+// convert back to array of catergory objects
+viewData = keysOrdered.map(key => ({title: key, options: viewData[key]}))
 
 // Serve static stylesheet
 app.use(express.static('public'));
