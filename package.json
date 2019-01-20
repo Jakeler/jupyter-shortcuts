@@ -9,5 +9,9 @@
     "json5": "^2.1.0",
     "mustache": "^3.0.1",
     "mustache-express": "^1.2.8"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "start-default": "node server.js data/default-config.json"
   }
 }
