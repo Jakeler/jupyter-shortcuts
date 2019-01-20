@@ -15,9 +15,14 @@
                     </div>
                     <div class="keys-container">
                         {{#keys}}
-                            {{#.}}
-                                <span class="key">{{.}}</span>
-                            {{/.}}
+                            <span class="key-group">
+                                {{#.}}
+                                    <span class="key">{{.}}</span>
+                                {{/.}}
+                                {{^.}}
+                                    (unset)
+                                {{/.}}
+                            </span>
                         {{/keys}}
                     </div>
                 </div>
