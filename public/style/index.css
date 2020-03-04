@@ -3,7 +3,7 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
     background-color: lightgray;
-    height: 2800px;
+    height: 2100px;
 }
 
 section {
@@ -39,9 +39,10 @@ section {
 }
 .shortcut .meta .title {
     display: block;
+    padding-top: 10px;
 }
 .shortcut .meta .id {
-    display: block;
+    display: none;
     padding-top: .5em;
     color: gray;
 }

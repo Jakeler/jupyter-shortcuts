@@ -9,15 +9,69 @@ app.engine('mustache', mustacheExpress());
 app.set('view engine', 'mustache')
 const port = 3000
 
+
+const naming = {
+    application: 'Main Area',
+    apputils: 'Main Area',
+    completer: 'Completer',
+    console: 'Console',
+    docmanager: 'File Operations',
+    documentsearch: 'File Operations',
+    editmenu: 'Editing',
+    filebrowser: 'File Operations',
+    filemenu: 'File Operations',
+    imageviewer: 'Image Viewer',
+    inspector: 'Inspector',
+    kernelmenu: 'Kernel Operations',
+    launcher: 'Main Area',
+    notebook: 'Notebook Cell Operations',
+    runmenu: 'Run Menu',
+    settingeditor: 'Settings Editor',
+    tabsmenu: 'Main Area',
+    tooltip: 'Tooltips',
+    viewmenu: 'Notebook Operations',
+}
+
+const keysOrdered = [
+    
+    'Main Area',
+    'File Operations',
+    'Image Viewer',
+    'Settings Editor',
+    'Inspector',
+    
+    'Notebook Cell Operations',
+
+    'Tooltips',
+    'Notebook Operations',
+    'Run Menu',
+    'Kernel Operations',
+    'Editing',
+    'Console',
+    'Completer',
+
+    // 'Help',
+]
+
+function getCategory(item) {
+    const baseName = item.command.split(':')[0]
+    return naming[baseName]
+}
+
+function getTitle(item) {
+    const base = item.command.split(':')[1]
+    const words = base.split('-')
+    return words.join(' ')
+}
+
 function generateData() {
     // Parse config to object
     const json = fs.readFileSync(path);
-    const shortcuts = JSON5.parse(json)
+    const shortcuts = JSON5.parse(json).shortcuts
     
-    // Build object with categories
-    let cat = Object.keys(shortcuts).map(val => shortcuts[val].category)
-    cat = [... new Set(cat)]
-    
+    let cat = shortcuts.map(sc => getCategory(sc))
+    cat = [... new Set(cat)] // remove duplicates
+
     const viewData = cat.reduce((prev, val) => {
         prev[val] = []
         return prev
@@ -26,32 +80,15 @@ function generateData() {
     // Populate categories with data
     for (const key in shortcuts) {
         const item = shortcuts[key]
-        viewData[item.category].push({
+        category = getCategory(item)
+        viewData[category].push({
             id: item.command,
-            action: item.title,
+            action: getTitle(item),
             keys: item.keys.map(item => item != ''? item.split(' ') : [])
         })
     }
     
-    const keysOrdered = [   
-        'Main Area',
-        'File Operations',
-        'Image Viewer',
-        'Settings Editor',
-        'Tooltips',
-    
-        'Notebook Operations',
-        'Run Menu',
-        'Kernel Operations',
-        'Editing',
-        'Console',
-        'Completer',
-        'Inspector',
-    
-        'Notebook Cell Operations',
-        'Help',
-    ]
-    // convert back to array of catergory objects
+    // convert back to array of category objects
     return keysOrdered.map(key => ({title: key, options: viewData[key]}))
 }
 
