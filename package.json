@@ -5,7 +5,7 @@
   "main": "convert.js",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "json5": "^2.2.2",
     "mustache": "^3.0.1",
     "mustache-express": "^1.2.8"
